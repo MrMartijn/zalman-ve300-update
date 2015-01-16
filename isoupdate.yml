@@ -1,0 +1,15 @@
+Linux Mint:
+    enabled: true,
+    "17.1: Rebecca":
+        enabled: true,
+        Cinnamon:
+            - name: Cinnamon i386
+              url: "http://ftp.nluug.nl/os/Linux/distr/linuxmint/iso//stable/17.1/linuxmint-17.1-cinnamon-32bit.iso"
+              hash:
+                type: md5
+                value: "d1a9474f4f48c3a2220ddd1ff57f76b3"
+            - name: Cinnamon amd64
+              url: "http://ftp.nluug.nl/os/Linux/distr/linuxmint/iso//stable/17.1/linuxmint-17.1-cinnamon-64bit.iso"
+              hash:
+                type: md5
+                value: "0307ffcd5046c176599904193899426e"
